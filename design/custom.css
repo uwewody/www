@@ -1,0 +1,642 @@
+.wrapper,
+header .wrapper,
+.footer .field--field-footer {
+    max-width: 100%;
+}
+
+body {
+	font-family: 'PT Serif Caption', serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #fff;
+}
+.layout-container {
+    background: transparent !important;
+}
+
+main[role='main']{
+    padding: 0;
+    margin-bottom: -137px;
+}
+main[role='main'] .wrapper {
+    background: transparent;
+}
+
+.paragraph ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px 0 5px 30px;
+}
+.paragraph ul li:before {
+    content: 'จ';
+    position: absolute;
+    left: -45px;
+    font-weight: bold;
+    top: 0;
+    color: #422c24;
+    transform: rotate(-63deg)
+}
+
+.claim {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 120%;
+	text-shadow: 1px 1px 2px black;
+}
+@media only screen and (min-width: 768px) {
+	.claim {
+	font-size: 130%;
+	position: absolute;
+	left: 0;
+	bottom: 60px;
+	margin: 0 auto;
+	width: calc(100% - 540px);
+	padding: 0 0 0 540px;
+	right: 0;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.claim {
+	font-size: 150%;
+	}
+}
+
+.paragraph--type--clanek {
+    padding: 137px 0 0;
+    top: -137px;
+}
+
+
+.paragraph--type--clanek .inner {
+	font-size: 100%;
+    color: black;
+    padding: 0 15px 15px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.room {
+    display: block;
+    position: relative;
+    margin: 20px 0;
+    clear: both;
+    text-align: center;
+}
+.room:after {
+    content:"";
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+
+.room-info {
+    display: block;   
+    float: left;
+}
+
+.room-photo {
+    display: block;
+    float: right;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.room-photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .room-info,
+    .room-photo {
+        width: calc(50% - 10px); 
+    }
+
+    .room.left .room-info {
+        float: left;
+    }
+
+    .room.left .room-photo {
+        float: right;
+    }
+    .room.right .room-info {
+        float: right;
+    }
+
+    .room.right .room-photo {
+        float: left;
+    }
+}
+
+header {
+    background: rgba(0, 0, 0, 0.44);
+    z-index: 1;
+    background-size: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (min-width: 321px) {
+	header {
+		
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	header {
+		
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	header {
+		
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	header {
+        
+	}
+}
+
+header .wrapper {
+    background: transparent;    
+    margin: 0 auto;
+    min-height: 10px;
+    border: none;
+    padding: 0 10px;
+    max-width: calc( 100% - 20px);
+}
+
+.header-image {
+    display: none;
+}
+
+.logo {
+	top: 8px;
+    width: auto;
+    height: 50px;
+    left: -10px;
+    text-indent: 0;
+    text-align: left;
+}
+.logo a {
+	color: white;
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+}
+.logo svg {
+    width: 100%;
+    height: auto;
+    display: block;    
+}
+.logo span {
+    font-size: 21px;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.wrapper {
+    background: white;
+    padding: 0;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5,
+.main-menu {
+    font-family: 'PT Serif Caption', serif;
+}
+
+h2.paragraph-nadpis {
+    /* color: #422c24; */
+    color: #fff;
+    padding: 22px 0 15px;
+    border-bottom: 2px solid rgba(2, 5, 19, 0.28);
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h3, h4 {
+	color: #422c24;
+    font-weight: 400;
+    margin: 40px 0 30px 0;
+    font-size: 130%;
+}
+
+#menu-btn {
+    color: white;
+    top: 5px;
+    right: 5px;
+}
+
+#menu-btn span,
+#menu-btn span:before,
+#menu-btn span:after {
+    background: white;
+}
+
+@media only screen and (min-width: 768px) {
+    }
+
+@media only screen and (min-width: 1024px) {
+    .logo{top: 16px;}
+    .logo a{left: 0;}
+    .main-menu {margin: 15px 0 0;}
+    header .wrapper {
+        padding: 0 15px 10px;
+    }
+}
+
+
+.footer {
+    padding: 30px 10px;
+    background: transparent;
+    color: rgba(17, 75, 121, 0.28);
+    text-align: center;
+    position: relative;
+}
+
+.footer .field--field-footer {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: rgba(17, 75, 121, 0.28);
+}
+
+nav#block-idweb-main-menu {
+    position: relative;
+    clear: both;
+    float: none;
+}
+
+@media only screen and (min-width: 768px) {
+    nav#block-idweb-main-menu {
+        clear: none;
+    }
+}
+
+nav#block-idweb-main-menu.active ul.menu {
+    display: block;
+}
+
+nav#block-idweb-main-menu h2 {
+    display: none;
+}
+
+.main-menu ul#paragraph-menu {
+    padding: 0;
+    display: none;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-menu ul#paragraph-menu li {
+    display: block;
+    padding: 0
+}
+/*
+@media only screen and (min-width: 950px) {
+    .main-menu ul#paragraph-menu {
+        display: block !important
+    }
+}
+
+*/
+
+@media only screen and (min-width: 1024px) {
+    .main-menu ul#paragraph-menu li {
+        display: inline-block;
+        padding: 0;
+        margin: 0 2px
+    }
+    .main-menu ul#paragraph-menu li a {
+        text-shadow: 0;
+    }
+}
+
+
+.main-menu ul#paragraph-menu li a {
+    display: block;
+    transition: 300ms;
+    color: #422c24;
+    text-decoration: none;
+    border: none;
+    line-height: 25px;
+    height: auto;
+    padding: 10px 20px;
+
+}
+
+.main-menu ul#paragraph-menu li a:hover, 
+.main-menu ul#paragraph-menu li a.is-active {
+    color: #8f0222;
+    border-bottom: 0;
+background: #ffffff;
+    text-shadow: 0 -1px 1px #ffffff;
+}
+
+.main-menu ul#paragraph-menu li a.is-active,
+.main-menu ul#paragraph-menu li.ui-tabs-active a {
+    border-bottom: 0;
+    font-weight: normal;
+    color: #8f0222;
+background: #ffffff;
+    text-shadow: 0 -1px 1px #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-menu ul#paragraph-menu li a {
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        color: #422c24;
+        padding: 5px 14px;
+        border-radius: 5px;
+    }
+    .main-menu ul#paragraph-menu li a:hover, 
+    .main-menu ul#paragraph-menu li a.is-active, 
+    .main-menu ul#paragraph-menu li.ui-tabs-active a {
+        background: none;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        text-shadow: 0 0 2px #666;
+    }
+}
+
+
+
+#namaste-salon .inner .paragraph-nadpis-wrap {
+    /*padding-top: 35%;
+    background-image: url('data:image/jpeg;base64');
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    */background-size: 100%;
+}
+
+.paragraph--type--apartman {
+    border: 1px solid #f1eed4;
+    background: #fffef8;
+}
+
+.paragraph--type--apartman .field--field-nadpis-apartmanu {
+    color: #422c24;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #block-form label {
+        float: left;
+        width: calc(130px - 20px);
+        padding: 7px 20px 7px 0;
+        text-align: right;
+    }
+    #block-form input[type=text],
+    #block-form input[type=email],
+    #block-form input[type=date],
+    #block-form input[type=number] {
+        float: left;
+        width: calc(100% - 142px);
+        border: 1px solid grey;
+        /* tohle přepsat někde v defaultu ubytovani */
+        max-width: 100%; /* tohle přepsat někde v defaultu ubytovani */
+        padding: 7px 5px 5px 5px;
+    }
+    #block-form input[type=submit] {
+        margin-left: 130px; /* important kvuli submit:first-child v theme ubytovani; */
+    }
+
+    #block-form textarea {
+        max-width: 398px;
+    }
+}
+
+.paragraph--type--text-3-sloupce {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer .paragraph--type--text-2-sloupce .field--field-prvni-sloupec {
+        text-align: left;
+    }
+    .footer .paragraph--type--text-2-sloupce .field--field-druhy-sloupec {
+        text-align: right;
+    }
+
+    #block-form {
+        margin: 60px auto 30px;
+        max-width: 530px;
+    }
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce,
+    .paragraph--type--text-3-sloupce {
+        display: table;
+        width: 100%;
+        position: relative;
+    }
+        /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce:after,
+    .paragraph--type--text-3-sloupce:after {
+        content: "";
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce .field--field-prvni-sloupec,
+    .paragraph--type--text-2-sloupce .field--field-druhy-sloupec {
+        display: table-cell;
+        width: 50%;
+    }
+
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-3-sloupce .field--field-prvni-sloupec,
+    .paragraph--type--text-3-sloupce .field--field-druhy-sloupec,
+    .paragraph--type--text-3-sloupce .field--field-treti-sloupec {
+        display: table-cell;
+        width: 33.3%;
+    }
+
+
+}
+
+
+#cboxNext:before,
+#cboxPrevious:before,
+#cboxClose:before {
+    background: #422c24!important;
+}
+
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#lokalita .circle {
+    margin-top: -40px;
+    }
+
+img.circle.floatLeft,
+img.circle.floatRight {
+    float: none;
+}
+
+.rozloha {
+        display: block;
+    max-width: 320px;
+    margin: 0 auto;
+
+}
+
+.alignLeft,
+.alignRight,
+.alignCenter {
+    text-align: center;
+}
+
+@media only screen and (min-width: 599px) {
+    img.circle.floatRight {
+      float: right;
+        margin: 0 0 0 30px;  
+    }
+    img.circle.floatLeft {
+        float: left;
+        margin: 0 30px 0 0;
+    }
+
+    .alignRight {
+        text-align: right;
+    }
+
+    .alignLeft {
+        text-align: left;
+    }
+}
+
+a.btn {
+    padding: 5px 11px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #8f0222;
+    font-weight: normal;
+    color: #fff;
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    text-shadow: 0 -1px 1px #00000059;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+}
+a.btn:hover {
+    background: #8f0222;
+    transition: background-color .35s ease;
+    -webkit-transition: background-color .35s ease;
+    -moz-transition: background-color .35s ease;
+}
+
+
+
+table{width:100%}
+table tr th{background:#663822;color:white;font-weight:500;border-bottom:1px solid #663822;border-left:1px solid #7f4d35;padding:10px 10px 9px 10px;text-align:left}
+table tr th:first-child{border-left:0}
+table tr th[align="right"],
+table tr th.views-align-right{text-align:right}
+table tr th[align="center"],
+table tr th.views-align-center{text-align:center}
+table tr td{border-bottom:1px solid #eee;border-left:1px solid #eee;padding:6px 10px}table tr td:first-child{border-left:0}
+table tr td[align="right"],
+table tr td.views-align-right{text-align:right}
+table tr td[align="center"],
+table tr td.views-align-center{text-align:center}
+table tr:last-child td{border-bottom:0}
+
+/* tohle nefunguje...
+
+.owl-wrapper {
+    width: 270px!important;
+}
+.owl-wrapper .owl-item {
+    width: 270px!important;
+}
+
+*/
+
+.hp-cleim {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 10px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.hp-cleim-in{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    right: 0;
+    bottom: auto;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+
+}
+
+@media only screen and (min-width: 900px) {
+.hp-cleim-in{
+    font-size: 21px;
+}
+}
+
+
+#kontakt.paragraph,
+#objednavka.paragraph,
+div#uvod.paragraph.obj {
+    background: url(img/bg-header-kontakt.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
+#restaurace.paragraph {
+    background: url(img/bg-header-restaurace.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
+#pokoje.paragraph {
+    background: url(img/bg-header-pokoje.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
+#galerie.paragraph {
+    background: url(img/bg-header-galerie.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
+#aktivity.paragraph {
+    background: url(img/bg-header-aktivity.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
+#salonek.paragraph {
+    background: url(img/bg-header-salonek.jpg) repeat-x top center;
+    background-position: 0 54px;
+}
