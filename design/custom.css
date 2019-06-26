@@ -642,12 +642,12 @@ div#uvod.paragraph.obj {
 }
 
 
-.uvod {
+#uvod {
     text-align: center;
 }
 
 .block-contact {
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 20px 30px;
     border: 1px solid #94764f;
     display: inline-block;
