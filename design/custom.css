@@ -640,3 +640,17 @@ div#uvod.paragraph.obj {
     background: url(img/bg-header-salonek.jpg) repeat-x top center;
     background-position: 0 54px;
 }
+
+
+.uvod {
+    text-align: center;
+}
+
+.block-contact {
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 1px solid #94764f;
+    display: inline-block;
+    background: #f9f1e7;
+    text-align: center;
+}
