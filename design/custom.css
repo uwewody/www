@@ -84,12 +84,14 @@ main[role='main'] .wrapper {
 .paragraph--type--clanek.obj .inner {
     padding: 0;
     margin: 0 -15px;
-
-    @media only screen and (min-width: 700px) {
+}
+@media only screen and (min-width: 700px) {
+    .paragraph--type--clanek.obj .inner {
         padding: 0 15px 15px;
         margin: 0 auto;
     }
 }
+
 
 .room {
     display: block;
@@ -117,9 +119,6 @@ main[role='main'] .wrapper {
     height: auto;
     position: relative;
     overflow: hidden;
-    @media only screen and (min-width: 900px) {
-        height: 350px;
-    }
 }
 .room-photo img {
     display: block;
@@ -132,6 +131,9 @@ main[role='main'] .wrapper {
     .room-info,
     .room-photo {
         width: calc(50% - 10px); 
+    }
+    .room-photo {
+        height: 350px;
     }
 
     .room.left .room-info {
