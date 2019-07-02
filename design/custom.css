@@ -79,6 +79,7 @@ main[role='main'] .wrapper {
     padding: 0 15px 15px;
     margin: 0 auto;
     max-width: 1100px;
+    text-align: center;
 }
 
 .paragraph--type--clanek.obj .inner {
@@ -668,4 +669,10 @@ div#uvod.paragraph.obj {
     display: inline-block;
     background: #f9f1e7;
     text-align: center;
+}
+
+#poptavka {
+    margin: 0 -20px;
+    display: block;
+    width: calc(100% + 40px);
 }
