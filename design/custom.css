@@ -662,6 +662,11 @@ div#uvod.paragraph.obj {
     text-align: center;
 }
 
+#uvod .paragraph--type--textovy-blok {
+    position: relative;
+    top: -40px;
+}
+
 .block-contact {
     margin: 40px auto;
     padding: 20px 30px;
